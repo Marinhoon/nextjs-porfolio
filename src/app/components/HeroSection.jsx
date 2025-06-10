@@ -26,7 +26,7 @@ const HeroSection = () => {
                 1000,
                 "Brasileiro",
                 1000,
-                "Front-End / Junior",
+                "Front-End / Júnior",
                 1000,
                 "Desenvolvedor Web",
                 1000,

@@ -2,6 +2,10 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
+  reactStrictMode: true,
+  output: 'export',
+  exportTrailingSlash: true,
+  
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",

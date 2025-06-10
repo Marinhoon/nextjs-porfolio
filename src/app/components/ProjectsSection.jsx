@@ -7,21 +7,30 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Food-Flow Website",
-    description: "Projeto em desenvolviemento de lanchonete",
-    image: "/images/projects/food-flow.png",
+    title: "Pedix System",
+    description: "Sistema de gestão de lanchonete/Restaurante",
+    image: "/images/projects/pedixSystem.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Autenticação e operações CRUD",
-    image: "/images/projects/5.png",
+    id: 2,
+    title: "App Control Finance",
+    description: "Sistema de controle financeiro",
+    image: "/images/projects/appcontrol.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://appcontrolfinance.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Formulário de cadastro",
+    description: "Formulário com autenticação e armazenamento no FireBase ",
+    image: "/images/projects/form-cadastro.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "https://cadastro-profissional.netlify.app/",
   },
 ];
 
